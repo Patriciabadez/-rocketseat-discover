@@ -10,5 +10,15 @@ width: 348px;
 height: 348px;
 left: 40px;
 top: 362px;
-
+img{
+position: relative;
+background-image:#837E9F;
+left: 10px;
+top:20px;
+}
+p{
+position: relative;
+background-image:#837E9F;
+left: 70px;
+}
 `

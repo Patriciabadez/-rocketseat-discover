@@ -4,7 +4,7 @@ import { ComponentFooter } from './styled';
  const Footer =() => {
   return (
     <ComponentFooter>
-       <p>Footer</p>
+       <p>Feito com 💜 por Patricia Dias Baldez</p>
 
     </ComponentFooter>
   );
