@@ -41,6 +41,10 @@ font-weight: 400;
 font-size: 16px;
 line-height: 20px;
 }
+:hover{
+    border: 1px solid #CB92B1;
+    
+}
 `
 export const ImgStar = styled.div`
 position:absolute;
@@ -73,5 +77,9 @@ p{
     left: 18px;
     top: -20px;
 
+}
+:hover{
+    border: 1px solid #CB92B1;
+    
 }
 `

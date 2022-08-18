@@ -9,7 +9,7 @@ width: 952px;
 height: 86px;
 left: 448px;
 top: 373px;
-border-radius:25px;
+border-radius:20px;
 font-size: 20px;
 
 h1{
@@ -21,6 +21,10 @@ line-height: 25px;
 position: absolute;
 left: 50px;
 top: 15px;
+}
+:hover{
+    border: 1px solid #CB92B1;
+    
 }
 `
 

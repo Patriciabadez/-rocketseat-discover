@@ -8,7 +8,7 @@ left: 448px;
 top: 40px;
 
 background-color:#302F3D;
-border-radius:25px;
+border-radius:20px;
 h2{
 font-family: 'Merriweather Sans';
 font-style: normal;
@@ -30,5 +30,9 @@ top: 25px;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px;
+}
+:hover{
+    border: 1px solid #CB92B1;
+    
 }
 `

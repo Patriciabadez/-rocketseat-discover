@@ -6,7 +6,7 @@ import styled from 'styled-components'
 //     --bg-cards: #302F3D;
 //     --bg-techs: #CB92B1;
 //   }
-export const ComponentHeader =styled.div`
+export const HeaderContainer =styled.div`
 font-family: 'Merriweather Sans', sans-serif;
 background-color:#302F3D;
 
@@ -15,7 +15,7 @@ left: 40px;
 top:40px;
 width: 348px;
 height: 292px;
-border-radius:25px;
+border-radius:20px;
 
 img{
 border-radius:50%;
@@ -25,6 +25,10 @@ width: 128px;
 height: 128px;
 left: 100px;
 top: 30px;
+:hover{
+    border: 1px solid #CB92B1;
+    
+}
 
 /* background: url(fotopaty.jpeg); */
 border: 2px solid #00FF00;
@@ -52,4 +56,12 @@ font-weight: 300;
 font-size: 13px;
 line-height: 16px;
 }
+:hover{
+    border: 1px solid #CB92B1;
+    
+}
 `
+export const PatyImg = styled.img`
+
+`
+

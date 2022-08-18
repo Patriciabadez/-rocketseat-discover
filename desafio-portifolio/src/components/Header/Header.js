@@ -1,17 +1,20 @@
 import React from 'react'
-import { ComponentHeader } from './styled';
+import { HeaderContainer } from './styled';
 
- const Header =() => {
+const Header = () => {
   return (
-    <ComponentHeader>
-      <img src='./assets/fotopaty.jpeg'></img> 
-      
-       <h1>Patricia Dias Baldez</h1>
-       <p>Full Stack Developer</p>
-    </ComponentHeader>
     
-  );
-}
+    
+        <HeaderContainer>
+        <img src='https://avatars.githubusercontent.com/u/88301906?v=4' alt='Foto GitHub' />
+        <h1>Patricia Dias Baldez</h1>
+        <p>Full Stack Developer</p>
+      
+    </HeaderContainer>
+        
+      )  }
+    
+
 export default Header
 
 

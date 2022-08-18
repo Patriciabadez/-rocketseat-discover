@@ -1,16 +1,15 @@
 import React from 'react'
-import Footer from './components/Footer/Footer';
-import Home from './Home/Home'
+import Home from './pages/Home/Home'
 import { ContainerApp } from './styled';
 import './index.css'
+import Projects from './pages/Projects/Projects';
 
 const App = () => {
   return (
     <ContainerApp>
-      <Home />
-      <Footer />
+      <Home /> 
+      <Projects/> 
     </ContainerApp>
   );
 }
-
 export default App;
